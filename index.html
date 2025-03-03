@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form_container">
+        <!-- Login Form -->
+        <div class="form login_form">
+            <form id="loginForm">
+                <h2>Login</h2>
+                <div class="input_box">
+                    <input type="text" id="loginUsername" placeholder="Username"/>
+                </div>
+                <div class="input_box">
+                    <input type="password" id="loginPassword" placeholder="Password"/>
+                </div>
+                <button type="submit" class="button">Login Now</button>
+                <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+            </form>
+        </div>
+
+        <!-- Signup Form -->
+        <div class="form signup_form">
+            <form id="signupForm">
+                <h2>Signup</h2>
+                <div class="input_box">
+                    <input type="text" id="signupName" placeholder="Full Name"/>
+                </div>
+                <div class="input_box">
+                    <input type="email" id="signupEmail" placeholder="Email"/>
+                </div>
+                <div class="input_box">
+                    <input type="password" id="signupPassword" placeholder="Password"/>
+                </div>
+                <div class="input_box">
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password"/>
+                </div>
+                <div class="input_box">
+                    <input type="date" id="signupDob" placeholder="Date of Birth"/>
+                </div>
+                <div class="input_box">
+                    <select id="signupGender">
+                        <option value="">Select Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="input_box">
+                    <input type="text" id="fathername" placeholder="Father's Full Name"/>
+                </div>
+                <div class="input_box checkbox">
+                    <input type="checkbox" id="agreeTerms" required />
+                    <label for="agreeTerms">I agree to the Privacy Policy</label>
+                </div>
+                <button type="submit" class="button">Signup Now</button>
+                <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
