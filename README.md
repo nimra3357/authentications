@@ -55,14 +55,3 @@ Here are some validation examples:
 1. Open the `index.html` file in a browser.
 2. Try entering invalid data to see validation messages.
 3. Enter valid details to complete login or signup.
-
-## 🔹 How to Upload to GitHub
-### **1️⃣ Upload the README.md File**
-1. Open your GitHub repository.
-2. Click on **"Add file"** → **"Upload files"**.
-3. Select `README.md` from your system.
-4. Click **Commit changes**.
-
-### **2️⃣ Upload Screenshots**
-1. Inside your repository, click on **"Add file"** → **"Create new file"**.
-2. Name the file **`.gitignore`** and add this line:
