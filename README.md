@@ -32,19 +32,19 @@ This project features a **Login & Signup Form** with client-side validation usin
 Here are some validation examples:
 
 ### **1️⃣ Empty Fields Error**
-![Empty Fields Error](screenshots/empty-fields-error.png)
+![Empty Fields Error](empty-fields-error.png)
 
 ### **2️⃣ Invalid Email Format**
-![Invalid Email](screenshots/invalid-email.png)
+![Invalid Email](invalid-email.png)
 
 ### **3️⃣ Weak Password Warning**
-![Weak Password](screenshots/weak-password.png)
+![Weak Password](weak-password.png)
 
 ### **4️⃣ Passwords Do Not Match**
-![Password Mismatch](screenshots/password-mismatch.png)
+![Password Mismatch](password-mismatch.png)
 
 ### **5️⃣ Successful Signup**
-![Successful Signup](screenshots/successful-signup.png)
+![Successful Signup](successful-signup.png)
 
 ## 🔹 Technologies Used
 - **HTML** (for structure)
